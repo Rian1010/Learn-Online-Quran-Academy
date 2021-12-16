@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.primary-bg {
+  /* linear-gradient(90deg, rgba( 0, 198, 150, 0.8 ), rgba( 0, 218, 255, 0.8 )) */
+  transition: all 0.2s linear;
+}
+
+.nav-item-color {
+  color: #fff;
+}
+
+.nav-item-color:hover {
+  color: #0c0d26;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.text-blue {
+  color: rgb(26, 54, 114);
+}
+
+.secondary-bg {
+  background-color: rgb(28, 87, 97);
+}
+
+/* .text-light-green {
+    color: #25eea0;
+} */
+
+.banner-img {
+  width: 100%;
+  height: 100vh;
+  /* https://www.funeralwise.com/customs/islam/ */
+  /* https://steemit.com/travel/@robin5581/mosque-in-abu-dhabi-sheikh-zayed-grand-mosque
+  
+  https://steemitimages.com/DQmXppEVcuGDrMCSB8vL8TSyxqxkRy3hyxz4sCkzKRMeoh5/photo-1512632578888-169bbbc64f33.jpeg*/
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6),
+      rgba(255, 255, 255, 0)
+    ),
+    url('../images/MosqueAbuDhabi.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text-bg {
+  background-image: linear-gradient(
+    90 deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+
+.banner-btns {
+  height: 20vh;
+}
+
+.banner-btns-text {
+  color: #fff;
+}
+
+.banner-btns-text:hover {
+  color: #333;
+}
+
+.border-top-bottom {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.no-banner-bullet-point {
+  list-style-type: none;
+}
+
+.remove-pl {
+  padding-left: 0;
+}
+
+.about-col-1 {
+  height: 43vh;
+  background-color: rgb(161, 255, 233);
+}
+
+.about-col-2 {
+  width: 100%;
+  height: 43vh;
+  background-image: url('./../images/MosqueB.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-col-3 {
+  height: 35vh;
+  background-color: rgb(118, 184, 205);
+}
+
+.HP-about-heading {
+  transform: rotate(270deg);
+}
+
+.about-col-5 {
+  height: 35vh;
+  background-color: rgb(161, 195, 255);
+}
+
+.about-col-6 {
+  width: 100%;
+  height: 43vh;
+  background-image: url('./../images/Mosque-Banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-col-7 {
+  height: 43vh;
+  background-color: rgb(113 164 219);
+}
+
+.demo-section {
+  height: 600px;
+}
+
+.HP-contact-img {
+  width: 100%;
+  height: 43vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6),
+      rgba(255, 255, 255, 0)
+    ),
+    url('../images/MosqueAbuDhabi.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.procedure-section {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.testimonials-section {
+  position: absolute;
+  width: 100%;
+  bottom: -97px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.benefits_section > .far,
+.benefits_section > .fas {
+  font-size: 30px;
+}
+
+.info-section {
+  background-color: #f7f7f7;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #0c0d26;
+}
+
+.footer-link {
+  list-style-type: none;
+}
+
+.footer-icon {
+  margin-right: 10px;
+}
