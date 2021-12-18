@@ -139,12 +139,6 @@ body {
 .HP-contact-img {
   width: 100%;
   height: 43vh;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.6),
-      rgba(255, 255, 255, 0)
-    ),
-    url('../images/MosqueAbuDhabi.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

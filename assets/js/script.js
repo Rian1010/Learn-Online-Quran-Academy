@@ -32,6 +32,16 @@ function navDesignOnScroll() {
     }
 }
 
+const carouselItems = document.querySelectorAll('.carousel-item');
+
+// carouselItems.forEach(item => {
+//     console.log(item.classList)
+//     if (item.classList.contains('active')) {
+//         item.classList.toggle('d-flex', 'justify-content-center');
+//     }
+// });
+
+
 document.addEventListener("DOMContentLoaded", function () {
     fetch("../content.json")
         .then((res) => res.json())
@@ -141,6 +151,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="col-md-6 d-flex justify-content-center">
                     ${demo.video}
                 </div>
+            `;
+
+
+
+            const callToAction = data.homepage.callToAction;
+            console.log(callToAction);
+
+            document.querySelector('.HP-contact-img').style.backgroundImage = `linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.6),
+                rgba(255, 255, 255, 0)
+              ), url(${callToAction.backgroundImage})`;
+            document.getElementById('callToAction').innerHTML += `
+                <h2>${callToAction.title}</h2>
+                <p class="p-3">
+                    ${callToAction.text}
+                </p>
+                <button class="btn btn-outline-light btn-lg">Contact Us!</button>
             `;
         });
 });

@@ -184,7 +184,8 @@
     },
     "callToAction": {
       "title": "Start Your Journey and Book a Free Trial!",
-      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus hic nesciunt architecto quam, harum ea praesentium perspiciatis tempore dolores aliquid assumenda officiis obcaecati facere, eos voluptate ut. Dolor, ea inventore."
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus hic nesciunt architecto quam, harum ea praesentium perspiciatis tempore dolores aliquid assumenda officiis obcaecati facere, eos voluptate ut. Dolor, ea inventore.",
+      "backgroundImage": "./assets/images/MosqueAbuDhabi.jpeg"
     },
     "ourAmbition": [
       {
