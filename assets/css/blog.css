@@ -39,6 +39,7 @@ body {
 }
 
 .item-f {
+  height: auto;
   margin-top: 60%;
 }
 
@@ -48,7 +49,11 @@ body {
 
 .item-h {
   height: 100%;
-  margin-top: 60%;
+  margin-top: 45%;
+}
+
+.item-i {
+  margin-top: 90%;
 }
 
 .item {
