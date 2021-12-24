@@ -87,3 +87,24 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
 });
+
+window.addEventListener('scroll', function () {
+    var scrollPosition = window.pageYOffset;
+    var bgParallax = document.getElementsByClassName('card-img-top2')[0];
+    var limit = bgParallax.offsetTop + bgParallax.offsetHeight;
+    if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit) {
+        bgParallax.style.backgroundPositionY = (50 - 10 * scrollPosition / limit) + '%';
+    } else {
+        bgParallax.style.backgroundPositionY = '50%';
+    }
+});
+
+// window.onscroll(() => {
+//     let scroll = document.documentElement.scrollTop;
+//     console.log(scroll / 100)
+
+//     document.querySelectorAll('.card-img-top2').forEach(img => {
+//         let speed = 0.5;
+//         img.style.top = scroll + "px";
+//     });
+// })
