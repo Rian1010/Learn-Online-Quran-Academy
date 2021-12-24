@@ -9,7 +9,7 @@ const carouselItems = document.querySelectorAll('.carousel-item');
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("./../../content.json")
+    fetch("./content.json")
         .then((res) => res.json())
         .then((data) => {
             console.log(data);

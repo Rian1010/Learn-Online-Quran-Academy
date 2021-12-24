@@ -33,7 +33,7 @@ const card6 = document.getElementById('card6');
 // cardBottomPositioning(card3, card6);
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("./../../blogs.json")
+    fetch("./blogs.json")
         .then(response => response.json())
         .then(data => {
             console.log(data);
