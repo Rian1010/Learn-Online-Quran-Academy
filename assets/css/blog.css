@@ -59,7 +59,7 @@ body {
   background-image: url('../images/MosqueB.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 /* img {
